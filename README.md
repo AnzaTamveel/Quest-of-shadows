@@ -5,6 +5,12 @@
 
 ---
 
+## Contributions
+- **Anza Tamveel**
+- **Amna Atiq**
+- **Zainab Batool**
+
+---
 ## Table of Contents
 
 1. [Introduction](#introduction)
@@ -12,10 +18,9 @@
 3. [Data Structures and Algorithms Used](#data-structures-and-algorithms-used)
 4. [Technologies Used](#technologies-used)
 5. [Code Structure](#code-structure)
-6. [Folder Structure](#folder-structure)
 7. [How to Run the Project](#how-to-run-the-project)
 8. [Challenges and Solutions](#challenges-and-solutions)
-9. [Contributions](#contributions)
+9. [WireFrames](#wireFrame)
 10. [Conclusion](#conclusion)
 
 ---
@@ -48,13 +53,22 @@ The **Maze Game** is an exciting puzzle-solving game where players navigate thro
 - **Purpose:** Used in DFS for maintaining the path and ensuring the maze has a valid solution.
 - **Time Complexity:** O(1) for push/pop operations.
 
-### **Arrays**
-- **Purpose:** Stores maze layout, player positions, and visited cells for efficient tracking.
-- **Time Complexity:** O(1) for indexing.
+### **Hashtable**
+- **Purpose:** Used for storing the levels of game.
+- **Time Complexity:** O(1) for insertions, deletions, and lookups.
+- **Space Complexity:** O(N) for storing key-value pairs, where N is the number of elements stored.
+<p align="center">
+  <img src="DSA maze game/7.jpg" alt="Maze Game Wireframe" height="300">
+</p>
 
 ### **DFS (Depth-First Search)**
 - **Purpose:** Guarantees that the maze has a valid path from start to end by exploring nodes systematically.
 - **Time Complexity:** O(V + E).
+  
+<p align="center">
+  <img src="DSA maze game/15.jpg" alt="Maze Game Wireframe" height="300">
+</p>
+
 
 ### **Dynamic Maze Illumination**
 - **Purpose:** Keeps track of visited nodes to dynamically adjust the visibility of the maze.
@@ -75,18 +89,6 @@ The **Maze Game** is an exciting puzzle-solving game where players navigate thro
 - `bklevel.py`: Handles the level management and progression.
 - `bk.py`: Contains the backend game logic, including data structures for maze generation and traversal.
 - `bkmaze.py`: The main class that implements the game logic and user interface.
-
----
-
-## Folder Structure
-
-```plaintext
-Maze-Game/
-│
-├── bklevel.py           # Level management
-├── bk.py                # Core game logic
-├── bkmaze.py            # Game logic & UI implementation
-└── assets/              # Game assets (e.g., images, sounds)
 
 ---
 
@@ -122,12 +124,15 @@ Maze-Game/
 
 ---
 
-## Contributions
-- **Anza Tamveel**
-- **Amna Atiq**
-- **Zainab Batool**
 
+## WireFrame
+
+<p align="center">
+  <img src="DSA maze game/hashtable.png" alt="Maze Game Wireframe" height="300">
+   <p>figure-01</p>
+</p>
 ---
+
 
 ## Conclusion
 This project allowed us to deeply explore the practical implementation of data structures and algorithms, showcasing how these concepts can powerfully solve real-world problems like maze generation and navigation.
