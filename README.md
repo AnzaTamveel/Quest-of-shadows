@@ -38,6 +38,8 @@ The **Maze Game** is an exciting puzzle-solving game where players navigate thro
 - **Increasing Complexity:** As players progress, the mazes grow in size and complexity, providing an escalating challenge.
 - **Darkness Effect:** Only explored nodes are illuminated, adding an extra layer of challenge to the navigation process.
 - **AI Implementation:** Autamatically find correct path and move the player automatically to win the game.
+- **Restart:** Restart, Pause, Resume Option to start and hold the game.
+- **Item Collection:** Item Collection for gathering keys and treasures.
 - **Step-by-Step Player Movement:** The player can move through the maze one step at a time until the goal is reached.
 - **Interactive Visual Interface:** The game features a user-friendly graphical interface developed with Pygame, allowing players to interact with the maze in real-time.
 
