@@ -1,5 +1,8 @@
 # DSA Final Project - Maze Game
 
+**Subject Code:** CSC200 - Data Structures and Algorithms  
+**Instructor:** Nazeef Ul Haq 
+
 ## Table of Contents
 1. **Introduction**
 2. **Key Features**
@@ -61,32 +64,16 @@ The Maze Game is a puzzle-solving game where players navigate through mazes of i
 
 ## Code Structure
 ### Key Files:
-- `maze.py`: Contains the Maze class, handling maze generation, pathfinding, and visualization.
-- `player.py`: Manages player movements and tracks the current position.
-- `game.py`: The main class for game logic, including level progression and win conditions.
-
----
-
-## Folder Structuring
-```
-  Project/
-  ├── src/
-  │   ├── maze.py
-  │   ├── player.py
-  │   ├── game.py
-  │   └── utils.py
-  ├── assets/
-  │   ├── images/
-  │   └── sounds/
-  └── main.py
-```
+- `bklevel.py`: Handle all the levels.
+- `bk.py`: Contain all the backend of the game.
+- `bkmaze.py`: The main class for game logic and UI implementaiton.
 
 ---
 
 ## How to Run the Project
 1. Clone the repository:
    ```bash
-   git clone https://github.com/username/maze-game
+   git clone https://github.com/AnzaTamveel/Quest-of-Shadows
    ```
 2. Install the required dependencies:
    - Python 3.x
@@ -100,7 +87,7 @@ The Maze Game is a puzzle-solving game where players navigate through mazes of i
    ```
 4. Run the game:
    ```bash
-   python main.py
+   python bklevel.py
    ```
 
 ---
@@ -116,7 +103,9 @@ The Maze Game is a puzzle-solving game where players navigate through mazes of i
 ---
 
 ## Contributions
-- **Anza Tamveel**: Maze generation, game logic, and UI implementation.
+- **Anza Tamveel**
+- **Amna Atiq**
+- **Zainab Batool**
 
 ---
 
