@@ -15,9 +15,10 @@
 
 1. [Introduction](#introduction)
 2. [Key Features](#key-features)
-3. [Data Structures and Algorithms Used](#data-structures-and-algorithms-used)
-4. [Technologies Used](#technologies-used)
-5. [Code Structure](#code-structure)
+3. [Project Poster](#project-poster)
+4. [Data Structures and Algorithms Used](#data-structures-and-algorithms-used)
+5. [Technologies Used](#technologies-used)
+6. [Code Structure](#code-structure)
 7. [How to Run the Project](#how-to-run-the-project)
 8. [Problems Encountered and Approaches](#problems-encountered-and-approaches)
 9. [WireFrame](#wireframe)
@@ -44,7 +45,12 @@ The **Maze Game** is an exciting puzzle-solving game where players navigate thro
 - **Interactive Visual Interface:** The game features a user-friendly graphical interface developed with Pygame, allowing players to interact with the maze in real-time.
 
 ---
+## Project Poster
 
+<p align="center">
+  <img src="Project-poster.jpeg" alt="Maze Game Wireframe" width="300">
+</p>
+---
 ## Data Structures and Algorithms Used
 
 ### **Graph**
