@@ -1,4 +1,4 @@
-# DSA Final Project - Maze Game
+# DSA Final Project - Quest of Shadows
 
 **Subject Code:** CSC200 - Data Structures and Algorithms  
 **Instructor:** Nazeef Ul Haq
@@ -19,8 +19,8 @@
 4. [Technologies Used](#technologies-used)
 5. [Code Structure](#code-structure)
 7. [How to Run the Project](#how-to-run-the-project)
-8. [Challenges and Solutions](#challenges-and-solutions)
-9. [WireFrames](#wireFrame)
+8. [Problems Encountered and Approaches](#problems-encountered-and-approaches)
+9. [WireFrame](#wireframe)
 10. [Conclusion](#conclusion)
 
 ---
@@ -114,25 +114,71 @@ The **Maze Game** is an exciting puzzle-solving game where players navigate thro
 
 ---
 
-## Challenges and Solutions
-- **Challenge:** Ensuring a valid path in every maze.
-  **Solution:** Used Depth-First Search to guarantee connectivity between the start and end points.
-- **Challenge:** Handling large mazes efficiently.
-  **Solution:** Optimized data structures like arrays and adjacency lists for fast lookups.
-- **Challenge:** Dynamic darkness visualization.
-  **Solution:** Implemented a visited tracker to dynamically illuminate explored areas.
+> **Important Note for Cross-Platform Compatibility:**
+> 
+> The current implementation of the code has been tested on macOS and Windows, but there are a few platform-specific differences to be aware of:
+> 
+> - On **macOS**, the code runs successfully with `_init_` instead of `__init__`. If you encounter errors on macOS, double-check the method definition to ensure you're using `_init_`.
+> - On **Windows**, the correct method name is `__init__`. Using `_init_` on Windows will result in an error. Ensure the method is defined as `__init__` for compatibility.
+> 
+> Additionally, be mindful of other platform-specific nuances such as how certain operators and libraries may behave differently across systems.
+
+
+
+## Problems Encountered and Approaches
+- **Problems:** Ensuring a valid path in every maze.
+  **Approaches used:** Used Depth-First Search to guarantee connectivity between the start and end points.
+- **Problems:** Handling large mazes efficiently.
+  **Approaches used:** Optimized data structures like arrays and adjacency lists for fast lookups.
+- **Problems:** Dynamic darkness visualization.
+  **Approaches used:** Implemented a visited tracker to dynamically illuminate explored areas.
 
 ---
 
 
 ## WireFrame
 
-<p align="center">
-  <img src="DSA maze game/hashtable.png" alt="Maze Game Wireframe" height="300">
-   <p>figure-01</p>
+<p align="center"> 
+  <img src="DSA maze game/intro screen.png" alt="Maze Game Wireframe" height="300"> 
+  <br>
+  <em>Figure-01</em> 
+</p>
+
+
+<p align="center"> 
+  <img src="DSA maze game/hashtable .png" alt="Maze Game Wireframe" height="300"> 
+  <br>
+  <em>Figure-02</em> 
+</p>
+
+<p align="center"> 
+  <img src="DSA maze game/Image-1.png" alt="Maze Game Wireframe" height="300"> 
+  <br>
+  <em>Figure-03: Level-01</em> 
+</p>
+
+<p align="center"> 
+  <img src="DSA maze game/Image-2.png" alt="Maze Game Wireframe" height="300"> 
+  <br>
+  <em>Figure-04: Level-02</em> 
+</p>
+
+<p align="center"> 
+  <img src="DSA maze game/Image-3.png" alt="Maze Game Wireframe" height="300"> 
+  <br>
+  <em>Figure-05: Level-03</em> 
+</p>
+<p align="center"> 
+  <img src="DSA maze game/4 level .jpg" alt="Maze Game Wireframe" height="300"> 
+  <br>
+  <em>Figure-06: Level-04</em> 
+</p>
+<p align="center"> 
+  <img src="DSA maze game/level 5.jpg" alt="Maze Game Wireframe" height="300"> 
+  <br>
+  <em>Figure-07: Level-05</em> 
 </p>
 ---
-
 
 ## Conclusion
 This project allowed us to deeply explore the practical implementation of data structures and algorithms, showcasing how these concepts can powerfully solve real-world problems like maze generation and navigation.
