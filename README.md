@@ -48,9 +48,11 @@ The **Maze Game** is an exciting puzzle-solving game where players navigate thro
 ## Project Poster
 
 <p align="center">
-  <img src="Project-poster.jpeg" alt="Maze Game Wireframe" width="300">
+  <img src="Project-poster.jpeg" alt="Maze Game Wireframe" width="500">
 </p>
+
 ---
+
 ## Data Structures and Algorithms Used
 
 ### **Graph**
