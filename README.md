@@ -1,7 +1,7 @@
 # DSA Final Project - Quest of Shadows
 
 **Subject Code:** CSC200 - Data Structures and Algorithms  
-**Instructor:** Nazeef Ul Haq
+**Instructor:** Prof. Nazeef Ul Haq
 
 ---
 
